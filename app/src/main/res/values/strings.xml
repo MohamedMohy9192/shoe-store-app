@@ -22,4 +22,6 @@
     <string name="instruction_text">You can save your dream shoe information. \nNavigate to the \"Shoe List\" screen. \nClick add new shoe button. \nEnter the shoe information and click save.</string>
     <string name="how_to_use">How to use!</string>
     <string name="shoe_list">Shoe List</string>
+
+    <string name="add_new_shoe">Add New Shoe</string>
 </resources>
