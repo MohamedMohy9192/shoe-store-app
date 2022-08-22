@@ -28,9 +28,12 @@ class ShoeDetailFragment : Fragment() {
 
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
         super.onViewCreated(view, savedInstanceState)
-        binding.shoeDetailFragment = this
-        binding.viewModel = viewModel
-        binding.lifecycleOwner = viewLifecycleOwner
+        with(binding) {
+            shoeDetailFragment = this@ShoeDetailFragment
+            viewModel = this@ShoeDetailFragment.viewModel
+            lifecycleOwner = viewLifecycleOwner
+
+        }
     }
 
     fun saveShoe() {

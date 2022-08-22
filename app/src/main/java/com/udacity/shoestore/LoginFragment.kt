@@ -24,8 +24,10 @@ class LoginFragment : Fragment() {
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
         super.onViewCreated(view, savedInstanceState)
 
-        binding.loginButton.setOnClickListener { navigateToWelcomeScreen() }
-        binding.signupButton.setOnClickListener { navigateToWelcomeScreen() }
+        with(binding) {
+            loginButton.setOnClickListener { navigateToWelcomeScreen() }
+            signupButton.setOnClickListener { navigateToWelcomeScreen() }
+        }
     }
 
     private fun navigateToWelcomeScreen() {
