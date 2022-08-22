@@ -12,6 +12,7 @@ import androidx.fragment.app.activityViewModels
 import androidx.lifecycle.Lifecycle
 import androidx.navigation.fragment.findNavController
 import com.udacity.shoestore.databinding.FragmentShoeListBinding
+import com.udacity.shoestore.viewmodel.ShoeViewModel
 
 class ShoeListFragment : Fragment() {
 

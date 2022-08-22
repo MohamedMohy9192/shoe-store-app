@@ -3,6 +3,9 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools">
 
+    <!--ConstraintLayout fits the usage here because I have views arranged in vertical and views
+    arranged horizontally instead of using many nested LinearLayout
+    I just use one flat view-->
     <androidx.constraintlayout.widget.ConstraintLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent">
