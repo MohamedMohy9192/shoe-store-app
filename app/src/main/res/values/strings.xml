@@ -24,4 +24,7 @@
     <string name="shoe_list">Shoe List</string>
 
     <string name="add_new_shoe">Add New Shoe</string>
+
+    <string name="shoe_list_text">Shoe name: %1$s. \nShoe Size: %2$s. \nCompany: %3$s. \nDescription: %4$s</string>
+    <string name="log_out">Log Out</string>
 </resources>
